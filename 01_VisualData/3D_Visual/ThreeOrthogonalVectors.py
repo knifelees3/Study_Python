@@ -102,4 +102,5 @@ ax.set_ylabel('y')
 ax.set_zlabel('z')
 ax.set_title(['$\theta = $' + str(round(theta, 2))+' '+'$ phi = $' +
               str(round(phi, 2))+' '+'ratio_xy=' + str(round(ratio_xy, 2))])
+plt.savefig('ThreeOrthoVectors.png')
 plt.show()
